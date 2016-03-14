@@ -33,3 +33,22 @@
 
 1457273231 e:\workspace\codeblock\codecraft\lib\\lib_record.h
 
+1457710122 source:e:\workspace\mygit\searchroute\future_net.cpp
+	"route.h"
+	"lib_io.h"
+	"lib_time.h"
+	"stdio.h"
+
+1457924997 e:\workspace\mygit\searchroute\route.h
+
+1457338189 source:e:\workspace\mygit\searchroute\io.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<time.h>
+	<sys/timeb.h>
+	<errno.h>
+	<unistd.h>
+	<signal.h>
+

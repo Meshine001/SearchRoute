@@ -46,7 +46,7 @@ void search_route(char *topo[5000], int edge_num, char *demand)
     parse_demand(demand);
     init_adjlist(topo,edge_num);
 
-    search_all_route(source_node);
+
     // DFS(demand_node[0]);
 
     for (int i = 0; i < 3; i++)
@@ -106,38 +106,9 @@ void init_adjlist(char *topo[5000],int edge_num)
 //    }
 }
 
-void search_all_route(int s)
-{
-    for(EdgeNode * head = Adjlist[s].first; head->next!=NULL; head = head->next)
-    {
-        if(head != NULL)
-        {
-            cout<<"LinkID:"<<head->id<< " Node:["<< s << "," << head->to << "]" << endl;
-            if(search_branch_route(head->to) == destination_node)
-            {
-                cout<<"搜索完成..."<<endl;
-            }
-        }
-    }
-}
 
-int search_branch_route(int s)
-{
-//    if(s == destination_node)
-//    {
-//        return s;
-//    }
 
-    for(EdgeNode * head = Adjlist[s].first; head->next!=NULL; head = head->next)
-    {
-        if(head != NULL)
-        {
 
-            cout<<"LinkID:"<<head->id<< " Node:["<< s << "," << head->to << "]" << endl;
-            return search_branch_route(head->to);
-        }
-    }
-}
 
 void remove_in_degree_is_zero()
 {
@@ -159,28 +130,7 @@ void remove_in_degree_is_zero()
     }
 }
 
-void DFS(int s)
-{
-    EdgeNode *eg;
-    int d;
-    cout<<"开始访问点:"<<s<<endl;
-    visited[s] = 1;
-    for(eg = Adjlist[s].first; eg->next != NULL; eg = eg->next)
-    {
-        cout<<"边:"<<eg->id<<endl;
 
-        if(eg != NULL)
-        {
-            d = eg->to;
-            if(visited[d] == 0)
-            {
-                DFS(d);
-            }
-        }
-    }
-
-
-}
 
 
 void parse_demand(char *demand)
