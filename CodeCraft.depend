@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1457710122 source:e:\workspace\codeblock\codecraft\future_net.cpp
+	"route.h"
+	"lib_io.h"
+	"lib_time.h"
+	"stdio.h"
+
+1457883269 e:\workspace\codeblock\codecraft\route.h
+
+1457322533 e:\workspace\codeblock\codecraft\lib\\lib_io.h
+
+1457273188 e:\workspace\codeblock\codecraft\lib\\lib_time.h
+
+1457338189 source:e:\workspace\codeblock\codecraft\io.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<assert.h>
+	<time.h>
+	<sys/timeb.h>
+	<errno.h>
+	<unistd.h>
+	<signal.h>
+
+1457921401 source:e:\workspace\codeblock\codecraft\route.cpp
+	"route.h"
+	"lib_record.h"
+	<stdio.h>
+	<iostream>
+	<algorithm>
+	<string.h>
+	<vector>
+
+1457273231 e:\workspace\codeblock\codecraft\lib\\lib_record.h
+
