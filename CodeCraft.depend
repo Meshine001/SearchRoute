@@ -39,7 +39,9 @@
 	"lib_time.h"
 	"stdio.h"
 
-1457924997 e:\workspace\mygit\searchroute\route.h
+1457941392 e:\workspace\mygit\searchroute\route.h
+	<iostream>
+	<stdlib.h>
 
 1457338189 source:e:\workspace\mygit\searchroute\io.cpp
 	<stdio.h>
@@ -51,4 +53,24 @@
 	<errno.h>
 	<unistd.h>
 	<signal.h>
+
+1457941549 source:e:\workspace\mygit\searchroute\route.cpp
+	"route.h"
+	"lib_record.h"
+	<stdio.h>
+	<iostream>
+	<algorithm>
+	<string.h>
+	<vector>
+
+1457933435 e:\workspace\mygit\searchroute\include\seqstack.h
+	<iostream>
+	<stdlib.h>
+
+1457933364 source:e:\workspace\mygit\searchroute\src\seqstack.cpp
+	"SeqStack.h"
+
+1457933435 source:e:\workspace\mygit\searchroute\include\seqstack.h
+	<iostream>
+	<stdlib.h>
 
